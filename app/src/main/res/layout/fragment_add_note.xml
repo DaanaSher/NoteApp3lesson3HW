@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#222"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainFragment">
+
+    <EditText
+        android:id="@+id/et_title"
+        android:fontFamily="@font/mochiy"
+        android:layout_margin="6dp"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="12dp"
+        android:background="@drawable/shape_inputs"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Enter title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/et_description"
+        android:fontFamily="@font/mochiy"
+        android:layout_margin="6dp"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="12dp"
+        android:background="@drawable/shape_inputs"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Enter description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_add"
+        android:fontFamily="@font/mochiy"
+        android:textColor="@color/white"
+        android:layout_margin="6dp"
+        android:text="Add"
+        android:background="@drawable/shape_inputs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
